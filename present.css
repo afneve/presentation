@@ -1,0 +1,137 @@
+body{
+	background: #464646;
+	font-family: Oswald, Arial;
+	margin: 0;
+	overflow:hidden;
+}
+#container{
+	background: black;
+	width: 100%;
+	padding: 0;
+	transition: 1s all ease-out;
+	overflow: hidden;
+}
+.animate{
+	transition: 1s all ease-out;	
+}
+#screen_width{
+	left: 0;
+ 	position: absolute;
+  	top: 0;
+	oveflow:hidden;
+}
+h2{
+	margin: 0;
+}
+.slide{
+	width: 100%;
+	float:left;
+	padding: 0 5px;
+	box-sizing: border-box;
+	overflow-y: hidden;
+	position: relative;
+}
+.slide.spring{ background: #80b4db; }
+.slide.summer{ background: #579632;  }
+.slide.fall{ background: #bf4d49; }
+.slide.winter{ background: #eee; }
+
+#slide_home{
+	background-image: url(1.jpg);
+}
+
+#slide_home .info.center {
+  display: block;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 109px;
+  width: 50%;
+}
+
+.cover{
+background-size: cover;	
+}
+
+.info.center{
+	display: block;
+	margin: auto;
+	width: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+}
+
+
+
+
+.header{
+	font-size: 18px;
+	color: #eee;
+	margin-bottom: 15px;
+}
+.team{
+	margin-left: 20px;
+}
+.messages a {
+	color: #F2385A;
+}
+.messages a:hover {
+	text-decoration: underline;
+}
+.head{
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 5px;
+	color: #FCFFF5;
+	background: #923836;
+	font-family: 'Oswald', sans-serif;
+}
+.date{
+	font-weight: bold;
+}
+/*
+429787
+FDFDA7
+FFC87A
+F46452
+923836
+*/
+.action {
+  padding: 5px;
+  box-sizing: border-box;
+  background: #D1DBBD;
+  font-family: verdana;
+  font-size: 12px;
+}
+.action:nth-of-type(odd){
+	background: #FDFDA7;
+}
+.action:nth-of-type(even){
+	background: #FFC87A;
+}
+.created, .done{
+	background: #FCFFF5;
+}
+.clear{
+	clear: both;
+}
+#archive {
+  background: none repeat scroll 0 0 #919394;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 50px;
+  padding: 10px;
+  transition: all 0.25s ease 0s;
+  width: auto;
+}
+#archive:hover {
+  background: none repeat scroll 0 0 #b4b7b8;
+  box-shadow: 5px 5px 0px 0px #919394,10px 10px 0px 0px #000;
+}
