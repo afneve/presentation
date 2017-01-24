@@ -136,10 +136,10 @@ $(document).ready(function(e) {
 				saidWord = saidWord.trim();
 				//console.log(saidWord);
 				console.log(saidWord);
-				if(saidWord.indexOf("next slide") >= 0 && event.results[0].isFinal){
+				if(saidWord.indexOf("next slide") >= 0 || saidWord.indexOf("right") >= 0 && event.results[0].isFinal){
 					p.next();
 				}
-				if(saidWord.indexOf("previous slide") >= 0 && event.results[0].isFinal){
+				if(saidWord.indexOf("previous slide") >= 0 || saidWord.indexOf("left") >= 0 && event.results[0].isFinal){
 					p.previous();
 				}
 
