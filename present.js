@@ -124,6 +124,7 @@ $(document).ready(function(e) {
                 // delve into words detected results & get the latest
                 // total results detected
                 console.log(event);
+                
 				console.log(event.results);
 				//console.log(event.results[0].isFinal);
 				
