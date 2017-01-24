@@ -176,6 +176,7 @@ $(document).ready(function(e) {
             }
 			
 			recognition.onend = function() { 
+            ignore_onend = true;
 			console.log(ignore_onend);
 				if (ignore_onend) {
 					console.log("RETURN");
@@ -189,6 +190,7 @@ $(document).ready(function(e) {
 
     p.init();
     p.addListeners();
+    p.enableSpeech();
 
 
 
