@@ -181,7 +181,8 @@ $(document).ready(function(e) {
 			console.log(ignore_onend);
 				if (ignore_onend) {
 					console.log("RETURN");
-			  	return false;
+                    recognition.start();
+			  	    return false;
 				}
 			}
 
